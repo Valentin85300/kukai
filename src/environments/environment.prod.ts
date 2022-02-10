@@ -565,6 +565,14 @@ const _CONSTANTS: Constants = {
       category: ["collectibles"],
       description: "3477 Arcan=s transmuted and summoned by Overlords on the Tezos Blockchain.",
     },
+    'Decathlon': {
+      name: 'Decathlon NFT',
+      address: ["KT1QXngq1CCuWv5RtnuYCSvGdKGeBxsRCWvQ"],
+      thumbnailUrl: '../../../assets/img/alias/decathlon.png',
+      link: "https://www.decathlon.com", shouldDisplayLink: DisplayLinkOption.None,
+      category: ["collectibles"],
+      description: "First step in building a future where digital goods are connected to physical goods",
+    },
   },
   ASSETS: {
     KT1K9gCRgaLRFKTErYt1wVxA3Frb9FjasjTV: {
@@ -1391,6 +1399,7 @@ const _TRUSTED_TOKEN_CONTRACTS = [
   'KT1MjS4L4HRajqNhQCdTSXgSPhW4A6gHiQo7',//Ch=mpathy Alch=my
   "KT1PooRxUckYjnWVvn9CetZxC9YeG1kkFYW5", // MekatronK9
   "KT1SRFbwhvfkXoRGqiDFVVsf5GTp16wGgtCa",//here and now 4
+  "KT1QXngq1CCuWv5RtnuYCSvGdKGeBxsRCWvQ", // Decathlon 
 ];
 const _BLACKLISTED_TOKEN_CONTRACTS = []
 
